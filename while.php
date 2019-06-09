@@ -16,5 +16,18 @@ while($counter<=10){
     }
 $counter++;
 }
+$name = 'Elmer Fudd';
+$greeting = '';
+switch($name){
+    case 'Buggs Bunny':
+    $greeting = ' rascally rabbit';
+    break;
+    case 'Elmer Fudd':
+    $greeting = ' Nimrod';
+    break;
+    case 'Sylvester the Cat':
+    $greeting = ' puddy tat';
+    break;
+}
+echo "What's up,".$greeting."?";
 ?>
-</body>
