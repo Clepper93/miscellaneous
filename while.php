@@ -17,4 +17,4 @@ while($counter<=10){
 $counter++;
 }
 ?>
-</body
+</body>
